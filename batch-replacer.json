@@ -1,0 +1,42 @@
+﻿{
+  "Paths": ["../Test/"],
+  "Filter": "*",
+  "FileName": {
+    "Search": "dnd5e(\\.*)",
+    "Replace": "mythras$1"
+  },
+  "Contents": [{
+    "Search": "dnd5e",
+    "Replace": "mythras"
+  },{
+    "Search": "DnD5e",
+    "Replace": "Mythras"
+  },{
+    "Search": "DND5E",
+    "Replace": "MYTHRAS"
+  },{
+    "Search": "D&D5E",
+    "Replace": "Mythras"
+  },{
+    "Search": "D&D5e",
+    "Replace": "Mythras"
+  },{
+    "Search": "ActorSheet5eCharacter",
+    "Replace": "MythrasCharacterActorSheet"
+  },{
+    "Search": "ActorSheet5e",
+    "Replace": "MythrasActorSheet"
+  },{
+    "Search": "Dungeons & Dragons 5th Edition",
+    "Replace": "Mythras"
+  },{
+    "Search": "https://gitlab.com/foundrynet/dnd5e",
+    "Replace": "https://gitlab.com/DenninDalke/foundry-vtt-mythras"
+  },{
+    "Search": "https://gitlab.com/foundrynet/dnd5e/raw/master/system.json",
+    "Replace": "https://gitlab.com/DenninDalke/foundry-vtt-mythras/raw/mythras/system.json"
+  },{
+    "Search": "https://gitlab.com/foundrynet/dnd5e/-/archive/.*.zip",
+    "Replace": "https://gitlab.com/DenninDalke/foundry-vtt-mythras/-/archive/release-0.1.0/mythras-release-0.1.0.zip"
+  }
+]}
